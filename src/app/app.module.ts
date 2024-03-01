@@ -10,6 +10,9 @@ import { SmallCardComponent } from './components/small-card/small-card.component
 import { HomeComponent } from './pages/home/home.component';
 import { MiddleCardComponent } from './components/middle-card/middle-card.component';
 import { BottomBarComponent } from './components/bottom-bar/bottom-bar.component';
+import { FiveStarsComponent } from './tools/five-stars/five-stars.component';
+import { ClientSatisfactionComponent } from './tools/client-satisfaction/client-satisfaction.component';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { BottomBarComponent } from './components/bottom-bar/bottom-bar.component
     SmallCardComponent,
     HomeComponent,
     MiddleCardComponent,
-    BottomBarComponent
+    BottomBarComponent,
+    FiveStarsComponent,
+    ClientSatisfactionComponent,  
   ],
   imports: [
     BrowserModule,
