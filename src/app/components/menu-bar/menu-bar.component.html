@@ -1,17 +1,18 @@
 <div class="container_menu-bar"> 
     <div class="menu-bar_menu-icons">
-    </div>  
+        <a [routerLink]="['']">{{ tabLeft }}</a>
+    </div>      
     <ul class="menu-bar_options">
-        <li><a href="#">SOBRE</a></li>
+        <li><a href="#">{{ tabMiddle1 }}</a></li>
         <li><span>•</span></li>
-        <li><a href="#">HABILIDADES</a></li>
+        <li><a href="#">{{ tabMiddle2 }}</a></li>
         <li><span>•</span></li>
-        <li><a href="#">PORTFÓLIO</a></li>
+        <li> <a [routerLink]="['portfolio']">{{ tabMiddle3 }}</a></li>
         <li><span>•</span></li>
-        <li><a href="#">DEPOIMENTOS</a></li>
+        <li><a href="#">{{ tabMiddle4 }}</a></li>
     </ul>
     <div class="menu-bar_contacts">
-        <a href="#">CONTATOS</a>
+        <a href="#">{{ tabRight }}</a>
     </div>   
 </div>
 

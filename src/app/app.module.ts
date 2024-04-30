@@ -12,6 +12,8 @@ import { MiddleCardComponent } from './components/middle-card/middle-card.compon
 import { BottomBarComponent } from './components/bottom-bar/bottom-bar.component';
 import { FiveStarsComponent } from './tools/five-stars/five-stars.component';
 import { ClientSatisfactionComponent } from './tools/client-satisfaction/client-satisfaction.component';
+import { PortfolioComponent } from './pages/portfolio/portfolio.component';
+import { DisciplineCardComponent } from './components/discipline-card/discipline-card.component';
 
 
 @NgModule({
@@ -25,7 +27,9 @@ import { ClientSatisfactionComponent } from './tools/client-satisfaction/client-
     MiddleCardComponent,
     BottomBarComponent,
     FiveStarsComponent,
-    ClientSatisfactionComponent,  
+    ClientSatisfactionComponent,
+    PortfolioComponent,
+    DisciplineCardComponent,  
   ],
   imports: [
     BrowserModule,

@@ -1,15 +1,13 @@
 <div class="container_big-card">
     <div class="big-card_photo">         
         <img 
-        src="https://live.staticflickr.com/65535/53554396009_42a6fb7679_w.jpg" alt="foto_pessoal">
+        src="{{ photoCover }}" alt="foto_pessoal">
     </div>
     <div class="big-card_schedule">
-        <a href="#"><img src="https://uxwing.com/wp-content/themes/uxwing/download/time-and-date/call-date-schedule-icon.svg" alt="agenda"/></a>
-        <a href="#"><h3>Agende uma Conversa</h3></a>        
+        <a href="#"><img src="{{ iconSchedule }}" alt="agenda"/></a>
+        <a href="#"><h3>{{ textSchedule }}</h3></a>        
     </div>
     <div class="big-card_description">
-        <p>
-            Técnico profissional e estudante de Engenharia Informática com proficiência em C, C#, Java, JavaScript, Angular, SQL. Habilidades interpessoais fortes, responsabilidade e trabalho em equipa.
-        </p>
+        <p>{{ descriptionAboutMe }}</p>
     </div>
 </div>
