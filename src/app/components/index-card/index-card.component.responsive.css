@@ -1,0 +1,23 @@
+/* .container_index-card {         
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-card_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;  
+}
+
+img {
+    margin-top: 44px;
+    height: 125px;
+    width: 125px;   
+    border-radius: 20px;
+    transition: all 1000ms ease-in-out;
+    
+} */
+

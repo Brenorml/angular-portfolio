@@ -1,0 +1,36 @@
+.container_index-card {    
+    border: 1px solid black;  
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.index-card_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;  
+}
+
+.index-card_title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;    
+    font-weight: bold;
+}
+
+.index-card_title td {
+    border: 1px solid rgb(0, 0, 0);    
+    width: 200px;
+    height: auto;
+}
+
+img {    
+    border: 0px solid rgb(0, 0, 0);    
+    height: 200px;
+    width: 200px;  
+    border-radius: 20px;
+    transition: all 100ms ease-in-out;    
+}

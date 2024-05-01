@@ -14,6 +14,7 @@ import { FiveStarsComponent } from './tools/five-stars/five-stars.component';
 import { ClientSatisfactionComponent } from './tools/client-satisfaction/client-satisfaction.component';
 import { PortfolioComponent } from './pages/portfolio/portfolio.component';
 import { DisciplineCardComponent } from './components/discipline-card/discipline-card.component';
+import { IndexCardComponent } from './components/index-card/index-card.component';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { DisciplineCardComponent } from './components/discipline-card/discipline
     FiveStarsComponent,
     ClientSatisfactionComponent,
     PortfolioComponent,
-    DisciplineCardComponent,  
+    DisciplineCardComponent,
+    IndexCardComponent,  
   ],
   imports: [
     BrowserModule,

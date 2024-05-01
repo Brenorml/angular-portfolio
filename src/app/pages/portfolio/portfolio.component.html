@@ -1,13 +1,124 @@
 <header>
-    <app-menu-bar
-    tabLeft="VOLTAR"
-    tabMiddle1="SOBRE"
-    tabMiddle2="HABILLIDADES"
-    tabMiddle3="PORTFÓLIO"
-    tabMiddle4="DEPOIMENTOS"
-    tabRight="CONTACTOS"
-    ></app-menu-bar>
+    <app-menu-bar tabLeft="VOLTAR" tabMiddle1="SOBRE" tabMiddle2="HABILLIDADES" tabMiddle3="PORTFÓLIO"
+        tabMiddle4="DEPOIMENTOS" tabRight="CONTACTOS"></app-menu-bar>
 </header>
-<app-menu-title></app-menu-title>
-<div class="portfolio_presentation"><p [innerHTML]="aboutPortfolio"></p></div>
-<app-discipline-card></app-discipline-card>
+<div class="portfolio_menu-title">
+    <app-menu-title></app-menu-title>
+</div>
+<div class="portfolio_presentation">
+    <h3>Apresentação:</h3>
+    <p [innerHTML]="aboutPortfolio"></p>
+</div>
+<div class="portfolio_index-title">
+    <h3>MÓDULOS (UFCD)</h3>
+</div>
+<app-index-card 
+    leftBox="https://live.staticflickr.com/65535/53692069914_7dd890069f_b.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53691930483_e22d30bc35_b.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53691930473_8ee7de5742_b.jpg" 
+    leftBoxAlt="0769"
+    middleBoxAlt="0770" 
+    rightBoxAlt="0771"
+    moduleNameLeft="0769 - Arquitetura interna do computador"
+    moduleNameMid="0770 - Dispositivos e periféricos"
+    moduleNameRight="0771 - Conexões de rede">    
+</app-index-card>
+<app-index-card 
+    leftBox="https://live.staticflickr.com/65535/53691930463_c27508b780_c.jpg"    
+    middleBox="https://live.staticflickr.com/65535/53690837117_42d992bf6c_c.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53692069859_e3fcc2e359.jpg" 
+    leftBoxAlt="0797"
+    middleBoxAlt="0798" 
+    rightBoxAlt="0799"
+    moduleNameLeft="0797 - Sistemas operativos - Tipologias"
+    moduleNameMid="0798 - Utilitários"
+    moduleNameRight="0799 - Sistemas de rede local">    
+</app-index-card>
+<app-index-card 
+    leftBox="https://live.staticflickr.com/65535/53692157310_dff5435d8c.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53692157305_7dd8fafc3c.jpg"    
+    rightBox="https://live.staticflickr.com/65535/53692069844_0798f59979_n.jpg"
+    leftBoxAlt="0800"
+    middleBoxAlt="0801" 
+    rightBoxAlt="0802"
+    moduleNameLeft="0800 - Serviços adicionais de rede"
+    moduleNameMid="0801 - Administração de redes locais"
+    moduleNameRight="0802 - Processamento computacional">    
+</app-index-card>
+<app-index-card 
+    leftBox="https://live.staticflickr.com/65535/53691930398_156b1958f9_n.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53691930423_e52af23522_n.jpg"   
+    rightBox="https://live.staticflickr.com/65535/53690837067_6141e35599_n.jpg"
+    leftBoxAlt="0804"
+    middleBoxAlt="0805" 
+    rightBoxAlt="0806"
+    moduleNameLeft="0804 - Algoritmos"
+    moduleNameMid="0805 - Estrutura de dados"
+    moduleNameRight="0806 - Princípios metodológicos de programação">    
+</app-index-card>
+<app-index-card 
+    leftBox="https://live.staticflickr.com/65535/53691930318_fdcb52fa74_m.jpg"     
+    middleBox="https://live.staticflickr.com/65535/53691930318_fdcb52fa74_m.jpg"  
+    rightBox="https://live.staticflickr.com/65535/53692157210_fc23080a1c_m.jpg"
+    leftBoxAlt="0807"
+    middleBoxAlt="0808" 
+    rightBoxAlt="0809"
+    moduleNameLeft="0807 - programação Cobol - Fundamentos"
+    moduleNameMid="0808 - programação Cobol - Ficheiros e interatividade"
+    moduleNameRight="0809 - Programação em C/C++ - Fundamentos">    
+</app-index-card>
+<app-index-card 
+leftBox="https://live.staticflickr.com/65535/53692157210_fc23080a1c_m.jpg"    
+middleBox="https://live.staticflickr.com/65535/53691930308_5dfb56c6d9_m.jpg"  
+rightBox="https://live.staticflickr.com/65535/53691930348_6c8a57f4d1_m.jpg"
+leftBoxAlt="0810"
+middleBoxAlt="0811" 
+rightBoxAlt="0816"
+moduleNameLeft="0810 - Programação em C/C++ - Avançada"
+moduleNameMid="0811 - Análise de Sistemas"
+moduleNameRight="0816 - Programação de sistemas distribuídos - Java">    
+</app-index-card>
+<app-index-card 
+leftBox="https://live.staticflickr.com/65535/53692157140_0b50c761fd_m.jpg"    
+middleBox="https://live.staticflickr.com/65535/53692157120_bf539c1d74_m.jpg" 
+rightBox="https://live.staticflickr.com/65535/53691716271_d1d92d8b7c_m.jpg"
+leftBoxAlt="10788"
+middleBoxAlt="10790" 
+rightBoxAlt="10791"
+moduleNameLeft="10788 - Fundamentos da linguagem SQL"
+moduleNameMid="10790 - Projeto de programação"
+moduleNameRight="10791 - Desenvolvimento de aplicações web em Java">    
+</app-index-card>
+<app-index-card 
+leftBox="https://live.staticflickr.com/65535/53690836872_20c7025e49_m.jpg"   
+middleBox="https://live.staticflickr.com/65535/53690836882_4d9ce44ed7_m.jpg"
+rightBox="https://live.staticflickr.com/65535/53690836867_f3c466987c_m.jpg"
+leftBoxAlt="10792"
+middleBoxAlt="10793" 
+rightBoxAlt="10794"
+moduleNameLeft="10792 - Programação ASP.NET Core MVC"
+moduleNameMid="10793 - Fundamentos de Python"
+moduleNameRight="10794 - Programação avançada com Python">    
+</app-index-card>
+<app-index-card 
+leftBox="https://live.staticflickr.com/65535/53692069704_44cba08154_m.jpg"  
+middleBox="https://live.staticflickr.com/65535/53691716176_3d55446c04_m.jpg"
+rightBox="https://live.staticflickr.com/65535/53690836957_d12a492658_m.jpg"
+leftBoxAlt="10795"
+middleBoxAlt="3933" 
+rightBoxAlt="3934"
+moduleNameLeft="10795 - Segurança no desenvolvimento de software"
+moduleNameMid="3933 - Administração de bases de dados para programadores"
+moduleNameRight="3934 - Programação em Visual Basic.NET">    
+</app-index-card>
+<app-index-card 
+leftBox="https://live.staticflickr.com/65535/53691716121_6d92960288_m.jpg"  
+middleBox="https://live.staticflickr.com/65535/53690836902_96dfa63549_m.jpg"
+rightBox="https://live.staticflickr.com/65535/53692816895_d9df571e37_m.jpg"
+leftBoxAlt="3935"
+middleBoxAlt="7846" 
+rightBoxAlt="o_melhor"
+moduleNameLeft="3935 - Programação em C#"
+moduleNameMid="7846 - Informática - Noções básicas "
+moduleNameRight="Os melhores desafios">    
+</app-index-card>
