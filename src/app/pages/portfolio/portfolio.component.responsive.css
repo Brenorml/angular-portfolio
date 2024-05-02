@@ -1,16 +1,21 @@
+@media screen and (max-width: 500px) {
+    .portfolio_presentation {    
+        border: 1px solid black;  
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 15%;
+        padding-right: 15%;
+        margin-top: 15px;    
+    }
+    
+    .portfolio_presentation > h3 {    
+        padding-right: 0px;
+    }    
+    
+}
 
 
-@media screen and (min-width: 431px) and (max-width: 650px) {
-    .portfolio_presentation {               
-        vertical-align: middle;          
-        font-size: small;        
-        text-align: justify;        
-    }
-}
-@media screen and (max-width: 430px) {
-    .portfolio_presentation {        
-        font-size: 11px;
-        justify-content: flex-start;
-        text-align: left;
-    }
-}
+

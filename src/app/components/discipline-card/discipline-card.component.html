@@ -1,1 +1,15 @@
-<p>discipline-card works!</p>
+<div class="discipline-card_container">
+    <div class="discipline-card_title">
+        <h1>{{ moduleTitle }}</h1>
+    </div>
+    <div class="discipline-card_content">
+        <p><span>Formador:</span> {{ teacher }}</p>
+        <p><span>Objectivos:</span> {{ goals }}</p>
+        <p><span>Atividades:</span> {{ activities }}</p>
+        <p><span>Reflexão:</span> {{ reflection }}</p>
+        <p><span>Trabalhos:</span></p>
+    </div>
+    <div class="discipline-card_box">
+        <a href="{{ homeworkUrl }}"><img src="{{ homeworkImg }}" alt=""></a>
+    </div>
+</div>

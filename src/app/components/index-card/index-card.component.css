@@ -14,17 +14,17 @@
     justify-content: space-evenly;  
 }
 
-.index-card_title {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;    
-    font-weight: bold;
-}
-
-.index-card_title td {
+.box_title {
     border: 1px solid rgb(0, 0, 0);    
     width: 200px;
-    height: auto;
+    height: auto;    
+}
+
+.box_contents {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    font-weight: bold;
 }
 
 img {    
