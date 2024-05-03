@@ -25,6 +25,13 @@ export class IndexCardComponent implements OnInit {
   moduleNameMid: string = "";
   @Input()
   moduleNameRight: string = "";
+  @Input()
+  idLeft: string = "0";
+  @Input()
+  idMid: string = "0";
+  @Input()
+  idRight: string = "0";
+    
     
   constructor() { }
 

@@ -1,39 +1,22 @@
 <div class="container_index-card">    
     <div class="index-card_box">
         <div class="box_contents">
-            <a href="#"><img src="{{ leftBox }}" alt="{{ leftBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <a [routerLink]="['discipline', idLeft]"><img src="{{ leftBox }}" alt="{{ leftBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
             <div class="box_title">
-                <a href="#">{{ moduleNameLeft }}</a>
+                <a [routerLink]="['discipline', idLeft]">{{ moduleNameLeft }}</a>
             </div>            
         </div>
         <div class="box_contents">
-            <a href="#"><img src="{{ middleBox }}" alt="{{ middleBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <a [routerLink]="['discipline', idMid]"><img src="{{ middleBox }}" alt="{{ middleBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
             <div class="box_title">
-                <a href="#">{{ moduleNameMid }}</a>
+                <a [routerLink]="['discipline', idMid]">{{ moduleNameMid }}</a>
             </div>            
         </div>
         <div class="box_contents">
-            <a href="#"><img src="{{ rightBox }}" alt="{{ rightBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+            <a [routerLink]="['discipline', idRight]"><img src="{{ rightBox }}" alt="{{ rightBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
             <div class="box_title">
-                <a href="#">{{ moduleNameRight }}</a>
+                <a [routerLink]="['discipline', idRight]">{{ moduleNameRight }}</a>
             </div>            
         </div> 
     </div>         
 </div>
-
-<!-- <div class="container_index-card">    
-    <div class="index-card_box">
-        <a href="#"><img src="{{ leftBox }}" alt="{{ leftBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
-        
-        <a href="#"><img src="{{ middleBox }}" alt="{{ middleBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
-        
-        <a href="#"><img src="{{ rightBox }}" alt="{{ rightBoxAlt }}" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>        
-    </div>
-    <table>
-        <tr class="index-card_title">
-            <td><a href="#">{{ moduleNameLeft }}</a></td>
-            <td><a href="#">{{ moduleNameMid }}</a></td>
-            <td><a href="#">{{ moduleNameRight }}</a></td>
-        </tr>
-    </table>    
-</div> -->
