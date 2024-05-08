@@ -3,13 +3,16 @@
         <h1>{{ moduleTitle }}</h1>
     </div>
     <div class="discipline-card_content">
-        <p><span>Formador:</span> {{ teacher }}</p>
-        <p><span>Objectivos:</span> {{ goals }}</p>
-        <p><span>Atividades:</span> {{ activities }}</p>
-        <p><span>Reflexão:</span> {{ reflection }}</p>
-        <p><span>Trabalhos:</span></p>
+        <p>Formador:<span>{{ teacher }}</span></p>
+        <p>Objectivos:<span>{{ goals }}</span></p>
+        <p>Atividades:<span>{{ activities }}</span></p>
+        <p>Reflexão:<span><a href="{{ reflectionLink }}" target="_blank"><u>{{ reflection }}</u></a></span></p>
+        <p>Trabalhos:</p>
     </div>
     <div class="discipline-card_box">
-        <a href="{{ homeworkUrl }}"><img src="{{ homeworkImg }}" alt=""></a>
+        <a href="{{ homeworkUrl }}" target="_blank"><img src="{{ homeworkImg }}" alt="" onmouseover="this.style.border='3px solid #000000'" onmouseout="this.style.border='0px solid #000000'"></a>
+    </div>
+    <div>        
+        <b><a [routerLink]="['/portfolio']"> «« Voltar</a></b>
     </div>
 </div>

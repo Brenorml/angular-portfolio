@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 
+
+
 @Component({
   selector: 'app-index-card',
   templateUrl: './index-card.component.html',
@@ -35,7 +37,7 @@ export class IndexCardComponent implements OnInit {
     
   constructor() { }
 
-  ngOnInit(): void {
+  ngOnInit(): void {    
   }
 
 }

@@ -1,13 +1,26 @@
 .discipline-card_container {
-
+    border: 0px solid rgb(0, 0, 0); 
+    width: 100%;
+    height: auto;    
 }
 
 .discipline-card_title {
-
+    border: 0px solid rgb(0, 0, 0); 
+    width: 75%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .discipline-card_content {
-
+    border: 0px solid rgb(0, 0, 0);
+    width: 75%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .discipline-card_box {
@@ -15,6 +28,10 @@
     flex-direction: column;    
     text-align: center;
     font-weight: bold;
+    border: 0px solid rgb(0, 0, 0);
+    width: 75%;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 img {    
@@ -23,4 +40,18 @@ img {
     width: 200px;  
     border-radius: 20px;
     transition: all 100ms ease-in-out;    
+}
+
+p {
+    font-size: large;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+span {
+    border: 0px solid rgb(0, 0, 0);
+    padding-left: 50px;    
+    font-weight: bold; 
 }

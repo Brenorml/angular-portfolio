@@ -1,11 +1,11 @@
 .container_index-card {    
-    border: 1px solid black;  
+    border: 0px solid black;  
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 15px;    
 }
 
 .index-card_box {
@@ -15,7 +15,7 @@
 }
 
 .box_title {
-    border: 1px solid rgb(0, 0, 0);    
+    border: 0px solid rgb(0, 0, 0);    
     width: 200px;
     height: auto;    
 }
